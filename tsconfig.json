@@ -6,6 +6,7 @@
   "compilerOptions": {
     "sourceMap": false,
     "types": ["node", "cypress"],
-    "ignoreDeprecations": "6.0"
+    "baseUrl": ".",
+    "moduleResolution": "bundler"
   }
 }
